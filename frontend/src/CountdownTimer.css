@@ -1,0 +1,15 @@
+/* CountdownTimer.css */
+.timer-text {
+    font-size: 3.5vh;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+  }
+    
+.timer-title {
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+    margin: 0;
+  }

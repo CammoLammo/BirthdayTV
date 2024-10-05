@@ -1,0 +1,17 @@
+{
+  "name": "birthdaytv",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5"
+  }
+}

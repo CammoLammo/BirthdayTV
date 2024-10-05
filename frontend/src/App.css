@@ -1,0 +1,43 @@
+/* App.css
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+html {
+  width: 100%;
+  background-image: url('/public/images/background3.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.app-container {
+  height: 100%;
+  width: 100%;
+} */
+
+/* App.css */
+/* App.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-image: url('/images/background3.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items at the start vertically */
+  height: 100%;
+}

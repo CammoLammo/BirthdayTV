@@ -1,0 +1,65 @@
+/* BirthdayTitle.css */
+/*.birthday-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14vh;
+}
+
+.title-container {
+  margin: 5vh 0;
+}
+
+.timer-title {
+  font-size: 5vh;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+  margin: 0;
+}
+
+.birthday-title {
+  font-size: 6.5vh;
+  font-weight: bold;
+  text-align: center;
+  color: #3772ff;
+  text-shadow: 1px 1px 4px #000;
+  margin: 0;
+}
+
+
+/* BirthdayTitle.css */
+/* BirthdayTitle.css */
+.birthday-container {
+    width: 40%; /* Occupies 40% of the screen width */
+    margin-top: 15vh; /* Offset 10% from the top */
+    height: 60vh; /* Occupies 75% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Evenly distribute space between elements */
+    align-items: center;
+  }
+  
+  .title-container {
+    margin-bottom: 5vh; /* Adjusted margin for spacing */
+  }
+  
+
+  
+  .birthday-title {
+    font-size: 6.5vh;
+    font-weight: bold;
+    text-align: center;
+    color: #3772ff;
+    text-shadow: 1px 1px 4px #000;
+    margin: 0;
+  }
+  
+  .timerText {
+    font-size: 3.5vh;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
