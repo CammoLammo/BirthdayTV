@@ -41,9 +41,12 @@ function Room({ calendarID }) {
         const { saturdayDateString: minDate, sundayDateString: maxDate } = getNextWeekendDates();
 
         // Fetch appointments for the next weekend and the specified calendarID
+
         const appointments = await getAppointments(calendarID, minDate, maxDate);
+        console.log(appointments);
 
         const sortedAppointments = appointments.sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
+
 
 
         const now = new Date();
